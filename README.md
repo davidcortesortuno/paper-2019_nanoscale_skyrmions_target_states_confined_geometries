@@ -26,6 +26,10 @@ A library to create meshes with different geometries is given in the `mesh_geome
 
 An interactive widget is provided in the `simulation_widget_nb.ipynb` notebook which runs the `simulation_widget.py` library. This widget is a proof of concept for the extensibility of Fidimag, in this case with the IPython widgets library. The notebook shows a simulation for the island system reproduced from experiments but further options are available in `simulation_widget.py`
 
+# Notebooks
+
+Jupyter notebooks with the analysis of the data from the simulations are provided in the `notebooks` directory. Notebooks can be viewed directly from Github. In case you run the notebooks the paths to simulation files need to be updated according to the simulation files produced in your machine (final time steps might change) and the folders in your system (notebooks can be outdated). 
+
 # References
 
 [1]
