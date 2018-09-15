@@ -10,7 +10,7 @@ Images of the experimental data used in the simulations are located in the `Romm
 
 Simulation scripts are located in the `simulation` folder, where they are separated in three categories:
 
-- **relaxation**: scripts that directly relax a given initial state for a particular geometry (the experimental island, hexagons or truncated triangles). Magnetic parameters can also be modified, see the `bash` scripts for details. The library containing all the available options and initial states is `hexagonal_fidimag.py`, which uses `argparse`.
+- **relaxation**: scripts that directly relax a given initial state for a particular geometry (the experimental island, hexagons or truncated triangles). Magnetic parameters can also be modified, see the `bash` scripts for details. The library containing all the available options and initial states is `hexagonal_fidimag.py`, which uses `argparse`.  The *relaxation* directory also contains the scripts to fully reproduce the phase diagrams shown in [1]. These simulations require substantial simulation time and disk space, thus it is recommended to start them with precaution.
 
 - **hysteresis**: these scripts take the initial state from the *relaxation* simulations (specific paths to `npy` files might require updating the final step number) and perform a sequential field sweep of the system, according to the specified options. Scripts are written as `cfg` Python config files and the main library with the options is `hexagonal_hysteresis.py`.
 
