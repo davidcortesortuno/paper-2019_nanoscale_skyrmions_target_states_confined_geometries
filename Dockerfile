@@ -11,7 +11,8 @@ FROM ubuntu:16.04
 RUN apt update -y
 RUN apt install -y build-essential cmake python3-dev python3-pip cython3 \
     python3-pytest-cov liblapack-dev libopenblas-dev \
-    wget make gfortran libblas-dev liblapack-dev python3-tk sudo fonts-lato
+    wget make gfortran libblas-dev liblapack-dev python3-tk sudo fonts-lato \
+    ipywidgets
 
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
