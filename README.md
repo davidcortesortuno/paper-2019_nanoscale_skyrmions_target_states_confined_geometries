@@ -1,4 +1,8 @@
-# Simulation of Pd/Fe/Ir(111) systems
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438396.svg)](https://doi.org/10.5281/zenodo.1438396)
+
+
+
+# Data set for: Simulation of Pd/Fe/Ir(111) systems
 
 ![](images/hex_island_sk_helix.png)
 
@@ -21,7 +25,6 @@ A library to create a mesh/simulation from an image is given in `sim_from_image.
 A library to create meshes with different geometries is given in the `mesh_geometries` folder.
 
 
-
 # Widget
 
 An interactive widget is provided in the `simulation_widget_nb.ipynb` notebook which runs the `simulation_widget.py` library. This widget is a proof of concept for the extensibility of Fidimag, in this case with the IPython widgets library. The notebook shows a simulation for the island system reproduced from experiments but further options are available in `simulation_widget.py`
@@ -29,6 +32,19 @@ An interactive widget is provided in the `simulation_widget_nb.ipynb` notebook w
 # Notebooks
 
 Jupyter notebooks with the analysis of the data from the simulations are provided in the `notebooks` directory. Notebooks can be viewed directly from Github. In case you run the notebooks the paths to simulation files need to be updated according to the simulation files produced in your machine (final time steps might change) and the folders in your system (notebooks can be outdated). 
+
+# Cite
+
+If you find this material useful please cite us (you might need the LaTeX's `url` package)
+
+    @Misc{Cortes2018,
+      author       = {David Cort{\'e}s-Ortu{\~n}o and James Loudon and Ryan Pepper and Marijan Beg and Ondrej Hovorka and Hans Fangohr},
+      title        = {{Data set for: ...}},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper_pdfeir_islands}},
+      year         = {2018},
+      doi          = {10.5281/zenodo.1438396},
+      url          = {https://doi.org/10.5281/zenodo.1438396},
+    }
 
 # References
 
