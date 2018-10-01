@@ -1,7 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438396.svg)](https://doi.org/10.5281/zenodo.1438396)
 
-
-
 # Data set for: Simulation of Pd/Fe/Ir(111) systems
 
 ![](images/hex_island_sk_helix.png)
@@ -12,7 +10,8 @@ simulations of the publication *...*. These simulations are based on the
 simulations.
 
 Images of the experimental data used in the simulations are located in the
-`Romming_data` folder.
+`Romming_data` folder. These images were obtained by the group of R.
+Wiesendanger from the University of Hamburg. Images are licensed under ...
 
 ## Scripts
 
@@ -136,7 +135,8 @@ In this repository we provide 10 notebooks:
   quasi-hexagonal islands fabricated experimentally. Simulations are directly
   compared with the experimental observations, which are based on SP-STM
   measurements. Simulation files are
-  located in `simulations/relaxation/image_rotated_relax-from-image/`
+  located in `simulations/relaxation/image_rotated_relax-from-image/`. Experimental
+  images are provided in the `Romming_data/` folder
 
 # Cite
 
