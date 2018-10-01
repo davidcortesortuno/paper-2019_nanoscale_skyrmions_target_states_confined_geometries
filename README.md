@@ -62,7 +62,78 @@ Jupyter notebooks with the analysis of the data from the simulations are
 provided in the `notebooks` directory. Notebooks can be viewed directly from
 Github. In case you run the notebooks the paths to simulation files need to be
 updated according to the simulation files produced in your machine (final time
-steps might change) and the folders in your system (notebooks can be outdated). 
+steps might change) and the folders in your system (some notebooks might be
+outdated). Notebooks with GNEBM results require the `nebm_plot_tools` library.
+
+In this repository we provide 10 notebooks:
+
+- *Hexagons NEBM skyrmion collapse.ipynb*: GNEBM results for the skyrmion
+  collapse transition in hexagonal islands of varying size, applied field and
+  boundary condition. Results are based on the simulations located in
+  `simulations/NEBM/nebm_2Dhex_hexagons_PdFe-Ir_sk-down-collapse_B-sweep_DT/`
+  and
+  `simulations/NEBM/nebm_2Dhex_hexagons_PdFe-Ir_sk-down-collapse_B-sweep_pinned_boundary_DT/`
+
+- *Hexagons NEBM skyrmion escape.ipynb*: GNEBM results for the skyrmion escape
+  transition in hexagonal islands with free boundaries and varying size and
+  applied field. Results are based on the simulations located in
+  `simulations/NEBM/nebm_2Dhex_hexagons_PdFe-Ir_sk-down-escape_B-sweep_DT/`
+
+- *Hexagons NEBM tgt-state-up skyrmion-down collapse.ipynb*: GNEBM results for
+  the decay of a target state into a skyrmion in hexagonal islands of varying
+  size, applied field and boundary condition. Results are based on the
+  simulations located in
+  `simulations/NEBM/nebm_2Dhex_hexagons_PdFe-Ir_tgt-st-up_sk-down_collapse_B-sweep_DT/`
+  and
+  `simulations/NEBM/nebm_2Dhex_hexagons_PdFe-Ir_tgt-st-up_sk-down_B-sweep_pinned_boundary_DT/`
+
+- *Hexagons PdPdFe energies_positive_fields.ipynb*: Notebook analysing the
+  energy of ferromagnetic orderings, skyrmions and target states in hexagonal
+  islands, as a function of island size, applied field and boundary condition.
+  The notebook also shows snapshots of the relaxed configurations. Results are
+  based on the simulations located in
+  `simulations/relaxation/hexagons_size_variation_DT/` and
+  `simulations/relaxation/hexagons_size_variation_pinned_boundary_DT/`
+
+- *Hexagons_phase_diagram.ipynb*: Phase diagram with the lowest energy
+  configurations in hexagonal islands with free boundaries, as a function of
+  island size and applied field. The phase diagram is shown both using the
+  topological charge and the snapshots of the ground states. Results are based
+  on the simulations located in
+  `simulations/relaxation/hexagons_phase_diagram_B_L/`
+
+- *Hexagons_phase_diagram_pinned_bs.ipynb*: Same than the previous phase
+  diagram notebook but in islands with a ferromagnetic rim. Results are based
+  on the simulations located in
+  `simulations/relaxation/hexagons_phase_diagram_B_L_pinned_bs/`
+
+- *image_rotated NEBM target state-skyrmion.ipynb*: GENBM results for the decay
+  of target states into skyrmions in quasi-hexagonal islands fabricated
+  experimentally. Results are shown as a function of the applied field. Simulation
+  files are located in `simulations/NEBM/...`
+
+- *image_rotated snapshots-positive_fields.ipynb*: Results for the simulation
+  of hysteresis-like field sweep processes in quasi-hexagonal islands
+  fabricated experimentally. Results are shown for different initial states and
+  the energy of the configurations found during the simulated sweep process are
+  compared with the energy of magnetic configurations found during a field
+  sweep experiment. Results are based on the files located in
+  `simulations/hysteresis/image_rotated_DT/`
+
+- *image_rotated_energies_positive_fields.ipynb*: Notebook analysing the
+  energies and topological charge of different magnetic configurations in
+  quasi-hexagonal islands fabricated experimentally. Results are compared with
+  the energies of configurations observed during a field sweep experiment.  In
+  addition, the notebook provides details about the translation of the mesh
+  from experiment into the simulations. Snapshots of different magnetic
+  orderings are also shown along the notebook. Simulation files are
+  located in `simulations/relaxation/image_rotated_B-sweep_DT/`
+
+- *image_rotated_relaxed_from_image.ipynb*: Notebook showing the simulation of
+  quasi-hexagonal islands fabricated experimentally. Simulations are directly
+  compared with the experimental observations, which are based on SP-STM
+  measurements. Simulation files are
+  located in `simulations/relaxation/image_rotated_relax-from-image/`
 
 # Cite
 
