@@ -10,8 +10,9 @@ simulations of the publication *...*. These simulations are based on the
 simulations.
 
 Images of the experimental data used in the simulations are located in the
-`Romming_data` folder. These images were obtained by the group of R.
-Wiesendanger from the University of Hamburg. Images are licensed under ...
+`Romming_data` folder. These images were obtained by the group of [R.
+Wiesendanger](http://www.nanoscience.de/HTML/) from the University of Hamburg.
+Images are licensed under ...
 
 ## Scripts
 
