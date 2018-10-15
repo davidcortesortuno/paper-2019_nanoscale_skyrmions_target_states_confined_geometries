@@ -149,7 +149,7 @@ If you find this material useful please cite us (you might need the LaTeX's
     @Misc{Cortes2018,
       author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Roland Wiesendanger and Hans Fangohr and Andr{\'e} Kubetzka},
       title        = {{Data set for: Stability of chiral magnetic configurations in iron palladium islands}},
-      howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper_pdfeir_islands}},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper-2018_stability_pdfeir_islands}},
       year         = {2018},
       doi          = {10.5281/zenodo.1438396},
       url          = {https://doi.org/10.5281/zenodo.1438396},
