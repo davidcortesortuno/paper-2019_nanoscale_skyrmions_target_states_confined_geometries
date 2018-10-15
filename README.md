@@ -1,12 +1,14 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438396.svg)](https://doi.org/10.5281/zenodo.1438396)
 
-# Data set for: Simulation of Pd/Fe/Ir(111) systems
+# Data set for: Stability of chiral magnetic configurations in iron palladium islands
 
 ![](images/hex_island_sk_helix.png)
 
 This repository contains the libraries and scripts to completely reproduce the
-simulations of the publication *...*. These simulations are based on the
-[Fidimag](http://doi.org/10.5334/jors.223) code [2] which can run discrete spin
+simulations of the publication *Stability of chiral magnetic configurations in iron palladium islands* by D. Cortés-Ortuño, N. Romming, M. Beg, K. von Bergmann, R. Wiesendanger, H. Fangohr and A. Kubetzka. 
+
+These simulations are based on the
+[Fidimag](http://doi.org/10.5334/jors.223) code [1] which can perform discrete spin
 simulations.
 
 Images of the experimental data used in the simulations are located in the
@@ -145,8 +147,8 @@ If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
     @Misc{Cortes2018,
-      author       = {David Cort{\'e}s-Ortu{\~n}o and James Loudon and Ryan Pepper and Marijan Beg and Ondrej Hovorka and Hans Fangohr},
-      title        = {{Data set for: ...}},
+      author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Roland Wiesendanger and Hans Fangohr and Andr{\'e} Kubetzka},
+      title        = {{Data set for: Stability of chiral magnetic configurations in iron palladium islands}},
       howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper_pdfeir_islands}},
       year         = {2018},
       doi          = {10.5281/zenodo.1438396},
@@ -155,9 +157,7 @@ If you find this material useful please cite us (you might need the LaTeX's
 
 # References
 
-[1]
-
-[2] Bisotti, M.-A., Cortés-Ortuño, D., Pepper, R., Wang, W., Beg, M., Kluyver,
+[1] Bisotti, M.-A., Cortés-Ortuño, D., Pepper, R., Wang, W., Beg, M., Kluyver,
 T., & Fangohr, H. (2018). Fidimag – A Finite Difference Atomistic and
 Micromagnetic Simulation Package. Journal of Open Research Software, 6(1), 22.
 DOI: http://doi.org/10.5334/jors.223
