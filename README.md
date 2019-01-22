@@ -12,8 +12,9 @@ These simulations are based on the
 simulations.
 
 Images of the experimental data used in the simulations are located in the
-`Romming_data` folder. These images were obtained by the group of [R.
-Wiesendanger](http://www.nanoscience.de/HTML/) from the University of Hamburg.
+`Romming_data` folder. These images are copyrighted and were obtained by the
+group of [R.  Wiesendanger](http://www.nanoscience.de/HTML/) from the
+University of Hamburg.
 
 ## Scripts
 
@@ -146,7 +147,7 @@ If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
     @Misc{Cortes2018,
-      author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Roland Wiesendanger and Hans Fangohr and Andr{\'e} Kubetzka},
+      author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Andr{\'e} Kubetzka and Ondrej Hovorka and Hans Fangohr and Roland Wiesendanger},
       title        = {{Data set for: Nano-scale magnetic skyrmions and target states in confined geometries}},
       howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper-2019_nanoscale_skyrmions_target_states_confined_geometries}},
       year         = {2019},
