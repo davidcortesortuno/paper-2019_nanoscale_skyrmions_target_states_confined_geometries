@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438396.svg)](https://doi.org/10.5281/zenodo.1438396)
 
-# Data set for: Stability of chiral magnetic configurations in iron palladium islands
+# Data set for: Nano-scale magnetic skyrmions and target states in confined geometries 
 
 ![](images/hex_island_sk_helix.png)
 
 This repository contains the libraries and scripts to completely reproduce the
-simulations of the publication *Stability of chiral magnetic configurations in iron palladium islands* by D. Cortés-Ortuño, N. Romming, M. Beg, K. von Bergmann, R. Wiesendanger, H. Fangohr and A. Kubetzka. 
+simulations of the publication *Nano-scale magnetic skyrmions and target states in confined geometries* by D. Cortés-Ortuño, N. Romming, M. Beg, K. von Bergmann, A. Kubetzka, O. Hovorka, H. Fangohr and R. Wiesendanger. 
 
 These simulations are based on the
 [Fidimag](http://doi.org/10.5334/jors.223) code [1] which can perform discrete spin
@@ -14,7 +14,6 @@ simulations.
 Images of the experimental data used in the simulations are located in the
 `Romming_data` folder. These images were obtained by the group of [R.
 Wiesendanger](http://www.nanoscience.de/HTML/) from the University of Hamburg.
-Images are licensed under ...
 
 ## Scripts
 
@@ -148,9 +147,9 @@ If you find this material useful please cite us (you might need the LaTeX's
 
     @Misc{Cortes2018,
       author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Roland Wiesendanger and Hans Fangohr and Andr{\'e} Kubetzka},
-      title        = {{Data set for: Stability of chiral magnetic configurations in iron palladium islands}},
-      howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper-2018_stability_pdfeir_islands}},
-      year         = {2018},
+      title        = {{Data set for: Nano-scale magnetic skyrmions and target states in confined geometries}},
+      howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper-2019_nanoscale_skyrmions_target_states_confined_geometries}},
+      year         = {2019},
       doi          = {10.5281/zenodo.1438396},
       url          = {https://doi.org/10.5281/zenodo.1438396},
     }
