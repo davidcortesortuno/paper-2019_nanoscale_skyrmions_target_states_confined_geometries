@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1438396.svg)](https://doi.org/10.5281/zenodo.1438396)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/davidcortesortuno/paper-2019_nanoscale_skyrmions_target_states_confined_geometries/master)
 
 # Data set for: Nano-scale magnetic skyrmions and target states in confined geometries 
 
