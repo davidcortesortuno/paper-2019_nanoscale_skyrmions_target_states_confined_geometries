@@ -146,7 +146,7 @@ In this repository we provide 10 notebooks:
 If you find this material useful please cite us (you might need the LaTeX's
 `url` package)
 
-    @Misc{Cortes2018,
+    @Misc{Cortes2019,
       author       = {David Cort{\'e}s-Ortu{\~n}o and Niklas Romming and Marijan Beg and Kirsten von Bergmann and Andr{\'e} Kubetzka and Ondrej Hovorka and Hans Fangohr and Roland Wiesendanger},
       title        = {{Data set for: Nano-scale magnetic skyrmions and target states in confined geometries}},
       howpublished = {Zenodo \url{doi:10.5281/zenodo.1438396}. Github: \url{https://github.com/davidcortesortuno/paper-2019_nanoscale_skyrmions_target_states_confined_geometries}},
