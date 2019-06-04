@@ -6,9 +6,12 @@ FROM ubuntu:16.04
 # ENTRYPOINT ["/bin/bash"]  
 # SHELL ["/bin/bash", "-c"] 
 
+# Avoid user interaction dialog
+ENV DEBIAN_FRONTEND=noninteractive
+
 # We need cython3 from the ubuntu repos, since cython-ising Sundials fail
 # with pip cython
-RUN apt update -y
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt install -y build-essential cmake python3-dev python3-pip cython3 \
     python3-pytest-cov liblapack-dev libopenblas-dev \
     wget make gfortran libblas-dev liblapack-dev python3-tk sudo fonts-lato \
